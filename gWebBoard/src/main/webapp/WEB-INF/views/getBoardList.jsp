@@ -12,7 +12,19 @@
 <title>게시글 목록</title>
 </head>
 <body>
-		<h1>게시글 목록</h1>
+	<h1>게시글 목록</h1>
+		
+	<!-- 검색창 -->
+	<form action="getBoardList.do" method="get">
+	<select name="searchCondition">
+		<option value="title">제목</option>
+		<option value="writer">작성자</option>
+		<option value="content">내용</option>
+	</select>
+	<input type="text" name="searchKeyword">
+	<input type="submit" value="검색">
+	</form>
+	<hr/>
 		
 	<table border="1">
 			<tr>

@@ -11,7 +11,11 @@
 </head>
 <body>
 
-<a href="<%= pjName %>/sample.do">시작</a>
+<a href="sample.do">시작</a>
+<br/>
+<a href="empSelect.do">EMP 검색 1</a>
+<br/>
+<a href="empDept.do">EMP 검색 2</a>
 
 </body>
 </html>
