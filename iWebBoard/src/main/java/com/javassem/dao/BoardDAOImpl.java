@@ -12,6 +12,7 @@ import com.javassem.domain.BoardVO;
 
 @Repository("boardDAO") 
 public class BoardDAOImpl implements BoardDAO{
+	
 	@Autowired
 	private SqlSessionTemplate mybatis;
 

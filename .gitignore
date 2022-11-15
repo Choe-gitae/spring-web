@@ -5,6 +5,7 @@
 .metadata
 bin/
 tmp/
+target/
 Servers/
 *.tmp
 *.bak
@@ -14,6 +15,11 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+
+### VS Code ###
+node_modules/
+WebContent/
+.json
 
 # External tool builders
 .externalToolBuilders/
